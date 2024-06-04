@@ -60,7 +60,7 @@ function startTimer() {
     getSeconds.innerHTML = "0" + 0
 
   }
-  if (mint > 9) {
+  if (mint > 99) {
     getMint.innerHTML = mint;
   }
 }
